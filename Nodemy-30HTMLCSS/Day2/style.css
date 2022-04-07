@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #38b161;
+}
+.profile-card{
+    display: flex;
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+.Dinh-Nam,.Minh-Thai,.Cuong-Nv{
+    background: #1e1f21;
+    width: 300px;
+    height: 400px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.Dinh-Nam .image{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.Dinh-Nam .image img{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.Dinh-Nam .name{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.Dinh-Nam .work{
+    font-size: 15px;
+    font-weight: bold;
+    color: #7a4943;
+    margin-top: 5px;
+}
+.Dinh-Nam .icons{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.Dinh-Nam .icons i{
+    margin: 15px;
+}
+.Dinh-Nam .button{
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #48393d;
+    background: #1e1f21;
+    margin: 15px auto;
+}
+.button .button1{
+    border: none;
+    background: #1e1f21;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 6px;
+    cursor: pointer;
+}
+/*2*/
+.Minh-Thai .image{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.Minh-Thai .image img{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.Minh-Thai .name{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.Minh-Thai .work{
+    font-size: 15px;
+    font-weight: bold;
+    color: #7a4943;
+    margin-top: 5px;
+}
+.Minh-Thai .icons{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.Minh-Thai .icons i{
+    margin: 15px;
+}
+.Minh-Thai .button{
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #48393d;
+    background: #1e1f21;
+    margin: 15px auto;
+}
+.button .button1{
+    border: none;
+    background: #1e1f21;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 6px;
+    cursor: pointer;
+}
+/*3*/
+.Cuong-Nv .image{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.Cuong-Nv .image img{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.Cuong-Nv .name{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.Cuong-Nv .work{
+    font-size: 15px;
+    font-weight: bold;
+    color: #7a4943;
+    margin-top: 5px;
+}
+.Cuong-Nv .icons{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.Cuong-Nv .icons i{
+    margin: 15px;
+}
+.Cuong-Nv .button{
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #48393d;
+    background: #1e1f21;
+    margin: 15px auto;
+}
+.button .button1{
+    border: none;
+    background: #1e1f21;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.button:hover{
+    background: red;
+}
+
+.image img:hover{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    border-radius: unset;
+    margin-top: -25px;
+    border:none;
+}

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #398768;
+}
+.card{
+    width: 305px;
+    height: 380px;
+    background: #242736;
+    margin:50px auto;
+    border-radius:20px ;
+    color: white;
+    position: relative;
+    padding: 20px;
+}
+
+.card-heart{
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+.card-shop{
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.card-img{
+    text-align: center;
+    background-image: #242736;
+    transition: 0.5s;
+}
+.card-img img{
+    width: 70%;
+    height: 30%;
+}
+.card-name{
+    font-size: 25px;
+    font-weight: bold;
+    color: #5d9b63;
+    text-align: center;
+    padding: 5px;
+    transition: 0.5s;
+}
+.card-cost{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.5s;
+}
+.card-content{
+    padding-top: 5px;
+    transition: 0.5s;
+}
+.card-size{
+    display: flex;
+    font-size: 18px;
+    padding: 5px;
+    font-weight: bold;
+}
+.card-size span{
+    margin: 0 5px;
+    width: 20px;
+    border-radius:5px;
+    background: #d4d4d5;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-color{
+    display: flex;
+    font-size: 18px;
+    padding: 5px;
+    font-weight: bold;
+}
+.card-color span{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin: 3px 0px 5px 5px;
+}
+.card-color span.green{
+    background: green;
+}
+.card-color span.red{
+    background: red;
+}
+.card-color span.black{
+    background: black;
+}
+.card-button{
+    display: flex;
+    padding: 5px;
+    transition: 0.5s;
+}
+.card-button button{
+    border: none;
+    background: #41a74b;
+    color: white;
+    font-weight: bold;
+    width: 95px;
+    height: 40px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.card:hover .card-img{
+    transform: translateY(-70px) rotate(-20deg);
+}
+.card:hover .card-name{
+    transform: translate(-30px,-50px);
+}
+.card:hover .card-cost{
+    transform: translate(-105px,-50px);
+}
+.card-content{
+    margin-top: 150px;
+    visibility: hidden;
+    opacity: 0;
+    transition-delay: 0.4s;
+}
+.card:hover .card-content{
+    margin-top: -20px;
+    visibility: visible;
+    opacity: 100%;
+}
+.card-button:hover{
+    transform: scale(0.9);
+}

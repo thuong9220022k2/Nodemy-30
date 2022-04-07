@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #c751b0;
+    overflow: hidden;
+}
+.Modal-show{
+    text-align: center;
+    margin-top:150px;
+}
+.modal-button .button-open{
+    width: 190px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-open:hover{
+    background: #dd6265;
+}
+.modal-content {
+    width: 460px;
+    height: 200px;
+    border-radius: 10px;
+    background:#ffff;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: bold;
+    display: none;
+    animation: modalShow 0.2s linear;
+
+}
+.modal-header{
+    height: 25%;
+    background: #dd6265;
+    text-align: left;
+    padding: 15px;
+    color: white;
+}
+.modal-body{
+    text-align: left;
+    padding: 15px;
+}
+.modal-body h3{
+    color: red;
+    font-size: 25px;
+    margin-bottom:15px;
+}
+.modal-body p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.modal-footer{
+    text-align: right;
+    padding: 15px;
+    
+}
+.modal-footer .button-close{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background: red;
+    border: none;
+    cursor: pointer;
+}
+@keyframes modalShow {
+    form{
+        top: -200px;
+        opacity: 0;
+    }
+    to{
+        top:0;
+        opacity: 1;
+    }
+    
+}
